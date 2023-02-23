@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inspiration</title>
+    <link rel="stylesheet" type="text/css" href="Portfolio.css">
+    <link rel="stylesheet" type="text/html" href="index.html">
+    <link rel="stylesheet" type="text/html" href="Kontakt.html">
+    <link rel="stylesheet" type="text/html" href="OmMig.html">
+
+    <style>
+        .image-gallery {
+            /* Mobile first */
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .image-gallery .column {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .image-item img {
+            width: 100%;
+            border-radius: 5px;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @media only screen and (min-width: 768px) {
+            .image-gallery {
+                flex-direction: row;
+            }
+
+        }
+        .image-item img {
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .image-item:hover img {
+            transform: scale(1.5);
+        }
+
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+        }
+
+        .box1 {
+            grid-column: 1/3;
+            grid-row: 1/3;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            text-align: center;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+            transform: rotate(-5deg);
+        }
+
+        .box2 {
+            grid-column: 3/4;
+            grid-row: 1/2;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            text-align: center;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+            transform: rotate(5deg);
+        }
+
+        .box3 {
+            grid-column: 3/4;
+            grid-row: 2/4;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border: 1px solid #ccc;
+            text-align: center;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+            transform: rotate(5deg);
+        }
+
+        .box2 img {
+            max-width: 100%;
+            height: auto;
+            filter: grayscale(100%);
+        }
+
+        .box1 h2 {
+            font-size: 36px;
+            color: #ac44af;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+        }
+
+        .box3 p {
+            font-size: 24px;
+            line-height: 1.5;
+            color: #6c757d;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+        }
+
+
+    </style>
+</head>
+
+
+<body>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Hem</a></li>
+        <li><a href="Ommig2.html">Om mig</a></li>
+        <li><a href="Inlägg.html">Inspiration</a></li>
+        <li><a href="Kontakt.html">Kontakt</a></li>
+    </ul>
+    <div class="navbar-image">
+        <div id="img2"> <img id="img" src="http://orig11.deviantart.net/dcab/f/2011/158/1/6/nyan_cat_by_valcreon-d3iapfh.gif" alt="logocat"> </div>
+    </div>
+</nav>
+
+<div style="padding-top: 100px; border-radius: 400px;">
+    <div class="grid-container">
+        <div class="box1">
+            <h2>Det lätta i livet som ser svårt ut</h2>
+            <p>Jag blir fascinerad av organisk verksamhet och strävar efter att skapa hållbara lösningar för att ta hand om vår planet. Inspirerad av Lady Gaga vill jag visa dig hur jag prioriterar det som är viktigt för att skapa harmoni i mitt liv och i mina projekt.</p>
+            <p>Jag vill inspirera dig att hitta det som verkligen betyder något i livet. Det kan vara svårt att se det lätta i det som verkar komplicerat och krångligt, men det är precis det jag vill hjälpa dig med.
+
+                Jag är ständigt fascinerad av organisk verksamhet och hur vi kan skapa hållbara lösningar för att ta hand om vår planet. Jag tror på att vi alla kan göra skillnad och att små förändringar kan leda till stora resultat. Det är därför jag beundrar företag som strävar efter att göra världen till en bättre plats, precis som jag själv vill göra.
+
+                När jag skapar mina projekt och min konst, inspireras jag av Lady Gaga och hennes otroliga kreativitet. Hon visar oss att det inte finns några gränser för vad vi kan åstadkomma om vi bara tror på oss själva och vågar ta steget.
+
+                Jag vill visa dig hur jag prioriterar det som är viktigt för att skapa harmoni i mitt liv och i mina projekt. Jag tror på enkelhet och simpelhet som grund för att skapa användarvänliga och effektiva lösningar. Men jag tror också på att det finns mer än så i livet - känslor, passion och inspiration är lika viktiga faktorer som hjälper oss att nå våra mål och drömmar.
+
+                Så, sluta leta efter det du tror att du behöver och låt mig visa dig det som verkligen betyder något. På min hemsida hittar du min portfolio, där jag visar upp mina projekt och mina kunskaper inom webbutveckling. Jag hoppas att min passion och kreativitet kommer att inspirera dig att hitta ditt eget sätt att skapa en bättre värld.</p></div>
+        <div class="box2">
+            <h2>Inspirerande hemsidor</h2>
+            <img src="inspiration.jpg" alt="Inspirerande hemsidor">
+        </div>
+        <div class="box3">
+            <h2>Mer om mig</h2>
+            <p>Jag pluggar till webbutvecklare och har en passion för enkelhet och simpelhet. På min hemsida hittar du min portfolio där jag visar upp mina projekt och mina kunskaper inom webbutveckling. Hoppas att jag kan inspirera dig att hitta ditt eget sätt att skapa en bättre värld.</p>
+        </div>
+    </div>
+</div>
+
+<div class="text-box">
+
+    <h2>En samling från mitt galleri</h2> <p>Dessa kan betraktas som inspiration eller lite mer insyn i mitt liv. Katten föreställer mitt husdjur; Galileo.
+    Han är väldigt fotogenisk. Alla fotografier har jag tagit själv med min mobilkamera.</p>
+
+</div>
+
+
+<div class="image-gallery">
+    <div class="column">
+    <div class="image-item">
+        <img src="https://i.imgur.com/Ol3kkVM.jpg" alt="treklöver" />
+        <div class="overlay"></div>
+    </div>
+        <div class="image-item">
+            <img src="https://i.imgur.com/Z6NoxU1.jpg" alt="mumin" />
+            <div class="overlay"></div>
+        </div>
+        <div class="image-item">
+            <img src="https://i.imgur.com/gi3wQI1.jpg" alt="eggplant" />
+            <div class="overlay"></div>
+        </div>
+        <div class="image-item">
+            <img src="https://i.imgur.com/Td0afr9.jpg" alt="seal" />
+            <div class="overlay"></div>
+        </div>
+</div>
+<div class="column">
+    <div class="image-item">
+        <img src="https://i.imgur.com/TRUAp4J.jpg" alt="fluff" />
+        <div class="overlay"></div>
+    </div>
+    <div class="image-item">
+        <img src="https://i.imgur.com/51XeDgd.jpg" alt="torg" />
+        <div class="overlay"></div>
+    </div>
+        <div class="image-item">
+            <img src="https://i.imgur.com/2cX0Q9P.jpg" alt="bluehat" />
+            <div class="overlay"></div>
+        </div>
+    <div class="image-item">
+        <img src="https://i.imgur.com/FFCmesj.jpg" alt="capy" />
+        <div class="overlay"></div>
+    </div>
+
+
+</div>
+
+
+
+    <div class="column">
+        <div class="image-item">
+            <img src="https://i.imgur.com/L1QuibK.jpg" alt="brygga" />
+            <div class="overlay"></div>
+        </div>
+
+        <div class="image-item">
+            <img src="https://i.imgur.com/7lhvHFv.jpg" alt="solnedgång" />
+            <div class="overlay"></div>
+        </div>
+        <div class="image-item">
+            <img src="https://i.imgur.com/CKk0uYy.jpg" alt="tall" />
+            <div class="overlay"></div>
+        </div>
+    </div>
+
+
+
+    <div class="column">
+        <div class="image-item">
+            <img src="https://i.imgur.com/59FFASw.jpg" alt="darkness" />
+            <div class="overlay"></div>
+        </div>
+        <div class="image-item">
+            <img src="https://i.imgur.com/RedakV5.jpg" alt="Galli" />
+            <div class="overlay"></div>
+        </div>
+        <div class="image-item">
+            <img src="https://i.imgur.com/KUdqKDS.jpg" alt="stockholm" />
+            <div class="overlay"></div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
+
